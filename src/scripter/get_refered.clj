@@ -1,5 +1,6 @@
 (ns scripter.get-refered
-  (require [clojure.java.shell]))
+  (require [clojure.java.shell]
+           [clojure.pprint]))
 
 
 (def sh clojure.java.shell/sh)
